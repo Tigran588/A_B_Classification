@@ -1,0 +1,13 @@
+train: C:/Users/babay/Documents_backup/projects/A_B_Classification/yolo_dataset/images/train
+val: C:/Users/babay/Documents_backup/projects/A_B_Classification/yolo_dataset/images/valid
+test: C:/Users/babay/Documents_backup/projects/A_B_Classification/yolo_dataset/images/test
+
+nc: 2
+names: ['sort_a', 'sort_b']
+
+roboflow:
+  workspace: mashroom-azwvl
+  project: a_b_classification-38rrm
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mashroom-azwvl/a_b_classification-38rrm/dataset/3
